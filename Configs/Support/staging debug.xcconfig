@@ -1,0 +1,13 @@
+//
+//  staging debug.xcconfig
+//  netflix-clone
+//
+//  Created by Mércia Maguerroski on 05/08/21.
+//  Copyright © 2021 Mércia. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../staging.base.xcconfig"
+#include "Pods/Target Support Files/Pods-netflix-clone/Pods-netflix-clone.staging debug.xcconfig"

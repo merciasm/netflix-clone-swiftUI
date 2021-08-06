@@ -1,0 +1,19 @@
+//
+//  staging.base.xcconfig
+//  netflix-clone
+//
+//  Created by Mércia Maguerroski on 05/08/21.
+//  Copyright © 2021 Mércia. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "base.xcconfig"
+
+BUNDLE_DISPLAY_NAME = netflix-clone Staging
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging
+PRODUCT_BUNDLE_IDENTIFIER = com.mercia.netflix-clone-swiftUI-staging
+
+SLASH = / // Workaround to solve double slash problem (can't scape character)
+BASE_URL = https:$(SLASH)/api-staging.netflix-clone.com

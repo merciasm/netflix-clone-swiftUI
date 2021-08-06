@@ -1,0 +1,19 @@
+//
+//  jr.production.base.xcconfig
+//  netflix-clone
+//
+//  Created by Andrio Frizon on 5/5/20.
+//  Copyright © 2020 Jungle Devs. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "jr.base.xcconfig"
+
+BUNDLE_DISPLAY_NAME = netflix-clone
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIconProduction
+PRODUCT_BUNDLE_IDENTIFIER = com.jungledevs.netflix-clone
+
+SLASH = / // Workaround to solve double slash problem (can't scape character)
+BASE_URL = https:$(SLASH)/api.jungle.rocks

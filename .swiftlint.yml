@@ -1,0 +1,30 @@
+disabled_rules: [] # rule identifiers to exclude from running
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - XcodeTemplates
+
+line_length: 150
+
+shorthand_operator: warning
+
+variable_name:
+  min_length: # only min_length
+    warning: 3 # only warning
+  excluded: # excluded via string array
+    - id
+    - URL
+
+type_name:
+  min_length: 4 # only warning
+  max_length: # warning and error
+    warning: 40
+    error: 50
+  excluded: # excluded via string array
+    - log
+    - URL
+
+nesting:
+  type_level:
+    warning: 2
